@@ -1,0 +1,216 @@
+/*
+    designed by WebTemplateOcean.com
+    http://www.webtemplateocean.com/
+    released under Creative Commons Attribution-ShareAlike 3.0 license
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding-bottom: 40px;
+    font: 13px "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #333333;
+    background: #FFFFFF url('images/bg.gif') repeat-x;
+}
+
+h1 {
+    padding-top: 30px;
+    font-weight: normal;
+    font-size: 46px;
+    line-height: 1.2em;
+    text-align: center;
+    letter-spacing: -2px;
+    text-transform: lowercase;
+    color: #FFFFFF;
+}
+
+h1 a, h1 a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+h2 {
+    font-weight: normal;
+    text-transform: lowercase;
+    letter-spacing: -1px;
+    color: #777777;
+}
+
+p {
+    padding: .75em 0;
+    line-height: 1.8em;
+    text-align: justify;
+}
+
+a {
+    color: #3E88BF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* page */
+
+#page {
+    width: 1020px;
+    margin: 0 auto;
+    padding-top: 40px;
+    background: #FFFFFF;
+    border: 1px solid #E3E3E3;
+    border-top: none;
+}
+
+/* header */
+
+#header {
+    height: 260px;
+    margin: 0 30px 40px 30px;
+    background: #76A0C8 url('images/header.jpg') no-repeat;
+}
+
+#logowrapper {
+    float: left;
+    width: 340px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+#logo {
+    border: none;
+}
+
+/* menu */
+
+#menu {
+    float: right;
+    width: 600px;
+    padding-top: 200px;
+}
+
+#menu ul {
+    float: left;
+    list-style: none;
+}
+
+#menu ul li {
+    display: block;
+    float: left;
+    padding: 0 20px;
+    font: .92em/60px Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    background: #FFFFFF;
+}
+
+#menu ul li a {
+    color: #000000;
+}
+
+#menu ul li a:hover {
+    color: #3E88BF;
+    text-decoration: none;
+}
+
+/* sidebar */
+
+#sidebar {
+    float: left;
+    width: 289px;
+    margin-bottom: 30px;
+    padding: 0 30px 0 50px;
+    border-right: 1px solid #E3E3E3;
+}
+
+#sidebar h2 {
+    font-size: 1.75em;
+}
+
+#sidebar .box {
+    padding: 1.5em 0 4em 0;
+}
+
+#sidebar p {
+    text-align: left;
+    line-height: 2em;
+}
+
+#sidebar ul {
+    list-style: none;
+    padding: 2.25em 0 4.75em 0;
+}
+
+#sidebar ul li {
+    padding: .2em 0 .2em 18px;
+    line-height: 2em;
+    background: url('images/li.gif') no-repeat 0 .9em;
+}
+
+/* content */
+
+#content {
+    float: right;
+    width: 570px;
+    padding: 0 50px 10px 0;
+}
+
+#content .post {
+    padding: 0 0 4em 0;
+}
+
+#content .entry {
+    padding-top: .75em;
+}
+
+#content h2 {
+    font-size: 2.5em;
+}
+
+#content h2 a {
+    color: #777777;
+}
+
+#content h2 a:hover {
+    text-decoration: none;
+}
+
+p.postmeta {
+    color: #888888;
+}
+
+p.readmore {
+    padding-right: 2em;
+    text-align: right;
+}
+
+p.readmore a {
+    padding: 4px;
+    border: 1px solid #CFE0E9;
+}
+
+.clearing {
+    clear: both;
+    height: 1px;
+    overflow: hidden;
+}
+
+/* footer */
+
+#footer {
+    margin: 0 1px;
+    padding: 40px 20px;
+    background: url('images/footer.gif') repeat-x;
+}
+
+#footer p {
+    font: .85em Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#footer span {
+    padding: 0 .5em;
+}
